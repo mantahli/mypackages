@@ -14,11 +14,11 @@ def bubble_sort(items):
 
 
 def merge_sort(items):
-   x = len(items) // 2
+    x = len(items) // 2
     if not x: # length is 1
         return items
     else:
-        return merge(merge_sort(items[:x]), merge_sort(items=[x:]))
+        return merge_sort(merge_sort(items[:x]), merge_sort(items=[x:]))
 
 
 
