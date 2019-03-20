@@ -1,5 +1,5 @@
 def sum_array(array):
-    def sum_array(array):
+    
     for i in array:
 
         return sum(array)
