@@ -1,2 +1,2 @@
-from .import sorting
-from .import recursion
+from mypackages import sorting
+from mypackages import recursion
